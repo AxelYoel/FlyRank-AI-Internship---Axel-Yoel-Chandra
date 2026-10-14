@@ -1,0 +1,50 @@
+{
+  "reconstruction_note": "Rebuilt by hand from the saved cell outputs of the executed w07_action_playbook.ipynb",
+  "review_date": "2026-02-28",
+  "n_pages": 38726,
+  "group_counts": {
+    "ranked": 33950,
+    "not_yet_created": 2639,
+    "new_page": 1674,
+    "older_page": 463
+  },
+  "older_page_share": 0.012,
+  "new_page_days_cutoff": 60,
+  "cost_value": {
+    "k": 100,
+    "n_ranked_pages": 33950,
+    "queue_top_k_share": 0.102,
+    "best_possible_top_k_share": 0.154,
+    "random_k_share_expected": 0.0029,
+    "queue_precision_at_20": 0.4
+  },
+  "n_clients_all": 43,
+  "n_clients_ranked": 36,
+  "top5_client_share_ranked": 0.816,
+  "cutoff_sensitivity": {
+    "20": {
+      "ranked": 33950,
+      "not_yet_created": 2639,
+      "older_page": 1272,
+      "new_page": 865
+    },
+    "30": {
+      "ranked": 33950,
+      "not_yet_created": 2639,
+      "new_page": 1354,
+      "older_page": 783
+    },
+    "60": {
+      "ranked": 33950,
+      "not_yet_created": 2639,
+      "new_page": 1674,
+      "older_page": 463
+    }
+  },
+  "rate_sensitivity_top100_overlap": {
+    "0.75": 81,
+    "0.9": 94,
+    "1.1": 93,
+    "1.25": 85
+  }
+}
