@@ -1,0 +1,39 @@
+{ "reconstruction_note": "Rebuilt by hand from the saved cell outputs of the single executed run of w08_sealed_june.ipynb, because the original file was written to the Colab runtime and was lost. No June query was re-run. 'versions' is omitted because it was not printed.",
+  "prediction_written_before_run": {
+    "precision_at_20": "between 0.20 to 0.50 with best guess around 0.35",
+    "queue_top100_share": "between 0.06 to 0.11 with best guess around 0.08",
+    "why": "Precision@20 depends on only 20 pages so it should swing more; both numbers should land a little below March because the method and the click rates were chosen on March data."
+  },
+  "frozen_rates": [
+    0.002811,
+    0.002353,
+    0.002226,
+    0.000748
+  ],
+  "new_page_days_cutoff": 60,
+  "queue_fingerprint_top500_may": "ede30069fbbfbde58f2a6b6599ddf2396e55d040c76bc926d12ac4304317493d",
+  "metrics": {
+    "review_date": "2026-05-31",
+    "k": 100,
+    "n_eval_pages": 38661,
+    "n_ranked_pages": 36256,
+    "group_counts": {
+      "ranked": 36256,
+      "not_yet_created": 1745,
+      "new_page": 360,
+      "older_page": 300
+    },
+    "queue_top_k_share": 0.171,
+    "best_possible_top_k_share": 0.24,
+    "random_k_share_expected": 0.0028,
+    "may_impressions_only_top_k_share": 0.149,
+    "queue_precision_at_20": 0.55,
+    "may_impressions_only_precision_at_20": 0.4,
+    "random_precision_at_20_expected": 0.0006
+  },
+  "versions": {
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "duckdb": "1.3.2"
+  }
+}
